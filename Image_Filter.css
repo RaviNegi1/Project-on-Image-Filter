@@ -1,0 +1,49 @@
+body {
+	background-color : #DDDDDD;
+	font-family: arial;
+	font-size: 16px;
+  font-weight : 100;
+  padding : 20px;
+	color: #333;
+}
+
+.div1 {
+  width : 70%;
+  height : auto;
+  border-style : solid;
+  padding : 30px;
+  border-width : 10px;
+  border-radius : 20px;
+  background-image : linear-gradient(135deg, #DDDDDD, #666666);
+}
+#canvas {
+	border: 1px solid;
+	width: 400px;
+  border-radius: 0px;
+}
+
+input {
+	display: block;
+	margin-top: 15px;
+}
+
+input:not([type="file"]) {
+	padding: 4px 4px;
+  margin: 15px 20px 0 0;
+	cursor: pointer;
+}
+
+input:not([type="file"]):hover {
+	background: #888888;
+  
+}
+#file:hover {
+  cursor : pointer;
+}
+.filters input {
+	display: inline-block;
+}
+
+.nomarginbottom {
+	margin-bottom: 0;
+}
